@@ -34,8 +34,8 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="delete"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="select"/>
       </xs:choice>
-      <xs:attribute name="namespace" type="xs:string"/>
-      <xs:attribute name="namespace2" type="xs:anySimpleType"/>
+      <xs:attribute name="namespace"/>
+      <xs:attribute name="namespace2" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="cache-ref">
